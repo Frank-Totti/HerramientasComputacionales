@@ -1,1 +1,9 @@
 # HerramientasComputacionales
+Ejercicios del taller 1 de herramientas computacionales
+Los ejercicios fueron realizados en Python.
+Área de un triángulo:
+El programa desarrollado para calcular el área de un triángulo recibe como entrada dos datos, en primer lugar, el valor numérico de la altura del triángulo, luego el valor numérico de la base del triángulo, esta entrada se lee primeramente en un procedimiento denominado leerImprimir, que pasa esta información dada por el usuario a la función denominada recibirParametros, así pues en este último el programa toma los dos valores ingresados, los multiplica, realiza una division por dos y muestra en pantalla el resultado a través de un retorno del resultado o return.
+Algoritmo para calcular nota final:
+Este programa contiene tambien dos procedimientos, uno encargado de la lectura de los datos ingresados por el usuario denominado leerImprimirNota, que almacena los valores de las notas adquiridas por el estudiante (en orden respectivo, parcial 1, parcial 2, taller y proyecto). Una vez estos datos almacenados, son enviados a la función denominada obtenerNotasCurso, que realiza una sumatoria de productos, de la manera (parcial 1 * 0.25) + (parcial 2 * 0.25) + (taller * 0.2) + (proyecto * 0.3), así obteniendo la nota final y retornando este valor para que el usuario lo vea en pantalla.
+Celsius a Fahrenheit:
+Nuevamente este programa recibe el parámetro de lectura en un procedimiento distinto a la función que calcula el resultado, en esta ocasión, el procedimiento es denominado leerImprimircambio, que pide al usuario un valor que será la temperatura en grados Celsius, este será enviado a la función celciusFaren, donde se aplicara la fórmula de conversión del valor para obtener el resultado, retorna esta al final y muestra en pantalla la temperatura en grados Fahrenheit.
